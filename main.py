@@ -97,7 +97,7 @@ class MyLayout(BoxLayout):
 		generates random number and returns a random image path
 		for the kivy file to use as source
 		'''
-		img = str('images/' + str(random.randint(1,67)) +'.jpg')
+		img = str('images/' + str(random.randint(1,4)) +'.jpg')
 		return img
 
 class myApp(App):
